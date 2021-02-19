@@ -9,6 +9,15 @@
 </head>
 <body>
     <div id="particles-js"></div>
+    <div id="temp-converter">
+        <form>
+        <h1>Temp Converter</h1>
+        <label for="degC" class="element-invisible">°C</label
+        ><input type="number" id="degC" placeholder="°C" />
+        <label for="degF" class="element-invisible">°F</label
+        ><input type="number" id="degF" placeholder="°F" />
+    </form>
+      </div>
 
     <script
     src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
@@ -18,6 +27,6 @@
             console.log('particles.json loaded...');
         });
     </script>
-    
+    <script src="./index.js" type="module"></script>
 </body>
 </html>
